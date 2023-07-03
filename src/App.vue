@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MapViewer/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import MapViewer from './components/MapViewer.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MapViewer
   }
 }
 </script>
